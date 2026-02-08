@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    display: flex;
+    height: 100vh;
+   /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    background-color: #f5e1e1;
+}
+.main{
+    width: 40rem;
+    height: 45rem;
+    
+    /* background-color: red; */
+}
+.main .gif{
+    height: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.main .caption{
+    height: 48%;
+    /* background-color: aqua; */
+    padding: 1rem;
+}
+.main .caption h1,p{
+    line-height: 2.5rem;
+}
+.main footer{
+    height: 2%;
+}
+img{
+    background-color: white;
+}
+.btn button{
+    background-color: white;
+    border: none;
+    box-shadow: 0.5px 0.5px 15px rgba(0, 0, 0, 0.585);
+    width: 8rem;
+    height: 2.5rem;
+    border-radius:0.5rem;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top:10px ;
+}
+.location1{
+    position:absolute;
+    top: 10px;
+    left: 50px;
+}
+.location2{
+    position:absolute;
+    bottom:100px;
+    right: 80px;
+}
+.location3{
+    position:absolute;
+    top:100px;
+    right: 80px;
+}
+.location4{
+    position:absolute;
+    bottom:100px;
+    left: 80px;
+}
+.location5{
+    position:absolute;
+    bottom:10px;
+    left: 100px;
+}
+.location6{
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+}
+#click{
+    background-color: red;
+    display: none;
+}
+#display{
+    display: block;
+}
+#hidden{
+    display: none;
+}
+.hidden button{
+    background-color: rgb(187, 14, 147);
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius:0.5rem;
+    cursor: pointer;
+}
+.last button{
+    background-color: rgb(187, 14, 147);
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius:0.5rem;
+    cursor: pointer;
+}
+#hide{
+    display: none;
+}
+#disc{
+    display: block;
+}
+.last{
+    display: none;
+}
+.lastdis{
+    display: block;
+}
+@media (max-width: 600px){
+    .caption .btn button{
+        width: 6rem;
+    height: 2.5rem;
+    }
+}
